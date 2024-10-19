@@ -1,7 +1,7 @@
 "use client";
 import React from 'react'
 import Image from 'next/image'
-import { CustomButtonProps } from '@/types'
+import { CustomButtonProps } from '@/types/indexes'
 
 const CustomButton = ({title, containerStyles, handleClick, btnType}:CustomButtonProps) => {
   return (
